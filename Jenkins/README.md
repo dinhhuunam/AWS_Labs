@@ -18,10 +18,10 @@ This guide provide step-by-step instructions to launch an AWS EC2 Instance, inst
     <img src="https://github.com/dinhhuunam/AWS_Labs/blob/main/Jenkins/images/image.png">
 ## Step 3: Launch Instance
 1. Configure infor of EC2 the following:
-- **Name**: Enter Jenkin_server
-- **Number of instance**: Set to ``1``
-- **Amazon Machine Image (AMI)**: Choose Ubuntu Pro - Ubuntu Server Pro 22.04 LTS  (HVM), SSH Volume Type (Free tier eligible).
-- **Architecture**: Seclect 64-bit (x86)
+    - **Name**: Enter Jenkin_server
+    - **Number of instance**: Set to ``1``
+    - **Amazon Machine Image (AMI)**: Choose Ubuntu Pro - Ubuntu Server Pro 22.04 LTS  (HVM), SSH Volume Type (Free tier eligible).
+    - **Architecture**: Seclect 64-bit (x86)
 
 ## Step 4: Confguire Instance
 1. Instance Type: Select t3.micro (Free tier eligible, 2 vCPU, 1GiB memory).
@@ -45,7 +45,7 @@ This guide provide step-by-step instructions to launch an AWS EC2 Instance, inst
 ## Step 6: Connect to EC2 Instance
 1. In the EC2 Dashboard, go to Instances and wait for the instance to reach the Running state (verify "Status Checks" pass).
 2. Select the instance (my_jenkins_server)
-    <img src="![AWS_Labs/Jenkins/images/image-4.png](https://github.com/dinhhuunam/AWS_Labs/blob/main/Jenkins/images/image-4.png)">
+    <img src="https://github.com/dinhhuunam/AWS_Labs/blob/main/Jenkins/images/image-4.png">
 
 # Step 7: Install Jenkins
 1. Using bashscript jenkins-install.sh
