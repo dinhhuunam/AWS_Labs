@@ -15,7 +15,7 @@ This guide provide step-by-step instructions to launch an AWS EC2 Instance, inst
 ## Step 2: Navigate to EC2 Dashboard
 1. In EC2 dashboard, select **Instances** from the left-hand menu.
 2. Click **Lauch Instance** to start creating a new EC2 instance.
-    <img src="/home/namdh/folder_image/image.png">
+    <img src="/home/namdh/AWS_Labs/Jenkins/images/image.png">
 
 ## Step 3: Launch Instance
 1. Configure infor of EC2 the following:
@@ -31,7 +31,7 @@ This guide provide step-by-step instructions to launch an AWS EC2 Instance, inst
 - If not, click Create new key pair, name(e.g. jekins-key), choose RSA and .pem format, and download the key pair. Store it securely.
 3. Leave default setting for storage unless specific requirement exist.
 4. Proceed to configure network settings.
-    <img src="/home/namdh/folder_image/image-1.png">
+    <img src="/home/namdh/AWS_Labs/Jenkins/images/image-1.png">
 
 ## Step 5: Configure Network Security Groups
 1. In the Network settings section:
@@ -41,28 +41,28 @@ This guide provide step-by-step instructions to launch an AWS EC2 Instance, inst
         - Type: SSH, Protocol: TCP, Port Range: 22, Source: Your IP or Anywhere (0.0.0.0/0) for SSH access.
     - Security Note: Allowing all traffic (0.0.0.0/0) for all ports is insecure. For production, restrict SSH to your IP and limit other traffic.
 2. Ensure port 8080 (Jenkins) and port 22 (SSH) are open.
-    <img src="/home/namdh/folder_image/image-2.png">
+    <img src="/home/namdh/AWS_Labs/Jenkins/images/image-2.png">
 
 ## Step 6: Connect to EC2 Instance
 1. In the EC2 Dashboard, go to Instances and wait for the instance to reach the Running state (verify "Status Checks" pass).
 2. Select the instance (my_jenkins_server)
-    <img src="/home/namdh/folder_image/image-4.png">
+    <img src="/home/namdh/AWS_Labs/Jenkins/images/image-4.png">
 
 # Step 7: Install Jenkins
 1. Using bashscript jenkins-install.sh
 
 👉 Jenkins runs on http://:8080 \
-    <img src="/home/namdh/folder_image/image-3.png">
+    <img src="/home/namdh/AWS_Labs/Jenkins/images/image-3.png">
 
 2. Get initial password: \
     ```sudo cat /var/lib/jenkins/secrets/initialAdminPassword```
 
-    <img src="/home/namdh/folder_image/image-5.png">
+    <img src="/home/namdh/AWS_Labs/Jenkins/images/image-5.png">
 
 
-    <img src="/home/namdh/folder_image/image-6.png">
+    <img src="/home/namdh/AWS_Labs/Jenkins/images/image-6.png">
 
-    <img src="/home/namdh/folder_image/image-7.png">
+    <img src="/home/namdh/AWS_Labs/Jenkins/images/image-7.png">
 
 
-    <img src="/home/namdh/folder_image/image-8.png">
+    <img src="/home/namdh/AWS_Labs/Jenkins/images/image-8.png">
