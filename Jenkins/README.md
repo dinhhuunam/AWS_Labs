@@ -26,8 +26,8 @@ This guide provide step-by-step instructions to launch an AWS EC2 Instance, inst
 ## Step 4: Confguire Instance
 1. Instance Type: Select t3.micro (Free tier eligible, 2 vCPU, 1GiB memory).
 2. Key Pair:
-- If you have an exisiting key pair, select it from the dropdown.
-- If not, click Create new key pair, name(e.g. jekins-key), choose RSA and .pem format, and download the key pair. Store it securely.
+    - If you have an exisiting key pair, select it from the dropdown.
+    - If not, click Create new key pair, name(e.g. jekins-key), choose RSA and .pem format, and download the key pair. Store it securely.
 3. Leave default setting for storage unless specific requirement exist.
 4. Proceed to configure network settings.
     <img src="https://github.com/dinhhuunam/AWS_Labs/blob/main/Jenkins/images/image-1.png">
