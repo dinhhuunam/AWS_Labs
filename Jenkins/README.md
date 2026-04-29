@@ -48,7 +48,7 @@ This guide provide step-by-step instructions to launch an AWS EC2 Instance, inst
     <img src="https://github.com/dinhhuunam/AWS_Labs/blob/main/Jenkins/images/image-4.png">
 
 # Step 7: Install Jenkins
-1. Using bashscript jenkins-install.sh
+1. Using bashscript **jenkins-install.sh**
 
 👉 Jenkins runs on http://:8080 \
     <img src="https://github.com/dinhhuunam/AWS_Labs/blob/main/Jenkins/images/image-3.png">
