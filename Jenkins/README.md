@@ -15,7 +15,7 @@ This guide provide step-by-step instructions to launch an AWS EC2 Instance, inst
 ## Step 2: Navigate to EC2 Dashboard
 1. In EC2 dashboard, select **Instances** from the left-hand menu.
 2. Click **Lauch Instance** to start creating a new EC2 instance.
-    <img src="/home/namdh/AWS_Labs/Jenkins/images/image.png">
+    <img src="/images/image.png">
 
 ## Step 3: Launch Instance
 1. Configure infor of EC2 the following:
@@ -41,7 +41,7 @@ This guide provide step-by-step instructions to launch an AWS EC2 Instance, inst
         - Type: SSH, Protocol: TCP, Port Range: 22, Source: Your IP or Anywhere (0.0.0.0/0) for SSH access.
     - Security Note: Allowing all traffic (0.0.0.0/0) for all ports is insecure. For production, restrict SSH to your IP and limit other traffic.
 2. Ensure port 8080 (Jenkins) and port 22 (SSH) are open.
-    <img src="/home/namdh/AWS_Labs/Jenkins/images/image-2.png">
+    <img src="Jenkins/images/image-2.png">
 
 ## Step 6: Connect to EC2 Instance
 1. In the EC2 Dashboard, go to Instances and wait for the instance to reach the Running state (verify "Status Checks" pass).
