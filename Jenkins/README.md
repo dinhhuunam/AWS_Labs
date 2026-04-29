@@ -15,7 +15,7 @@ This guide provide step-by-step instructions to launch an AWS EC2 Instance, inst
 ## Step 2: Navigate to EC2 Dashboard
 1. In EC2 dashboard, select **Instances** from the left-hand menu.
 2. Click **Lauch Instance** to start creating a new EC2 instance.
-    <img src="AWS_Labs/Jenkins/images/image.png">
+    <img src="![AWS_Labs/Jenkins/images/image.png](https://github.com/dinhhuunam/AWS_Labs/blob/main/Jenkins/images/image.png)">
 
 ## Step 3: Launch Instance
 1. Configure infor of EC2 the following:
